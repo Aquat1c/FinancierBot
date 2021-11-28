@@ -1,0 +1,26 @@
+{
+  "name": "FinancierBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "@distube/soundcloud": "^1.0.0",
+    "@distube/spotify": "^1.0.0",
+    "@distube/ytdl-core": "^4.9.3",
+    "@distube/ytpl": "^1.1.1",
+    "booru": "^2.5.0",
+    "discord.js": "^13.3.1",
+    "distube": "^3.0.3",
+    "ytdl-core": "^4.9.1"
+  },
+  "devDependencies": {
+    "node": "^16.13.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

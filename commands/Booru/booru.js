@@ -2,9 +2,9 @@ const Booru = require('booru')
 
 module.exports = {
     name: 'booru',
-    aliases: ['search'],
+    aliases: ['booru'],
     category: 'Arts',
-    utilisation: '{prefix}filter [filter name]',
+    utilisation: '{prefix}booru [filter name]',
 
     execute(client, message, args) {
    

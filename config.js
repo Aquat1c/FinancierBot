@@ -1,7 +1,6 @@
 module.exports = {
     app: {
         px: '.r ',
-        token: 'ODU2MjU2OTMxNTU5NjM2OTkz.YM-ZaA.YVEDpcyjI1u50QzVHn3TXnR4Uco',
         playing: 'Fairy Fencer F Advent Dark Force'
     },
 

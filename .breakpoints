@@ -3,8 +3,8 @@
     "commands/music/play.js": [
       {
         "id": "dda7e97e-1d1f-4331-aa43-d1e03e9ce0f7",
-        "line": 12,
-        "version": 1,
+        "line": 17,
+        "version": 27,
         "index": 518
       }
     ]

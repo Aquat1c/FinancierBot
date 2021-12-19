@@ -10,7 +10,7 @@ module.exports = {
     execute(client, message, args) {
      {
     //const booru = new Booru()
-    Booru.search('gelbooru', ['noire ' + ' -bondage' + "-spanking"   ], { limit: 1, random: true })
+    Booru.search('gelbooru', ['noire_(neptune_series)  ' + ' -bondage' + "-spanking"  + "-rating:explicit" ], { limit: 1, random: true })
     .then(posts => {
       for (let post of posts)
       //  console.log(post.fileUrl, post.postView)
@@ -27,7 +27,7 @@ module.exports = {
         console.log(post.rating);
       }
       
-    else if (post.rating.includes('q') ||post.rating.includes('e') ){
+    else if (post.rating.includes('q') ){
 message.channel.send({
         files: [{
            attachment: post.fileUrl,

@@ -1,8 +1,8 @@
           module.exports = {
-    name: 'retard',
-    aliases: ['retard'],
+    name: 'ratewaifu',
+    aliases: ['ratewaifu'],
     category: 'Etc',
-    utilisation: '{prefix} retard @user',
+    utilisation: '{prefix} ratewaifu @user',
 
 execute(client, message, args) {
    min = 0;

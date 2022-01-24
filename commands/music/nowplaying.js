@@ -24,11 +24,10 @@ module.exports = {
         const timestamp = queue.getPlayerTimestamp();
         const trackDuration = timestamp.progress == 'Infinity' ? 'infinity (live)' : track.duration;
 
-        embed.setDescription(`Volume **${queue.volume}**%\nDuration **${trackDuration}**\nLoop mode **${methods[queue.repeatMode]}**\nRequested by ${track.requestedBy}`);
+        embed.setDescription(`Volume **${queue.volume}**%\nDuration **${trackDuration}\nLoop mode **${methods[queue.repeatMode]}**\nLink to a song: **${track.url}**\nRequested by ${track.requestedBy}**\nProgress: ${queue.createProgressBar()}`);
 
         embed.setTimestamp();
-        embed.setFooter('Music comes first - Made with heart by Zerio ❤️', message.author.avatarURL({ dynamic: true }));
-
+       
         const saveButton = new MessageButton();
 
         saveButton.setLabel('Save this track');

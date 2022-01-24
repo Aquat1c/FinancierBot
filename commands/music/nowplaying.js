@@ -26,6 +26,8 @@ module.exports = {
 
         embed.setDescription(`Volume **${queue.volume}**%\nDuration **${trackDuration}\nLoop mode **${methods[queue.repeatMode]}**\nLink to a song: **${track.url}**\nRequested by ${track.requestedBy}**\nProgress: ${queue.createProgressBar()}`);
 
+      
+
         embed.setTimestamp();
        
         const saveButton = new MessageButton();

@@ -24,7 +24,9 @@ module.exports = {
         const timestamp = queue.getPlayerTimestamp();
         const trackDuration = timestamp.progress == 'Infinity' ? 'infinity (live)' : track.duration;
 
-        embed.setDescription(`Volume **${queue.volume}**%\nDuration **${trackDuration}**Current timestamp:**${queue.getTrackPosition.toString()}\nLoop mode **${methods[queue.repeatMode]}**\nLink to a song: **${track.url}**\nRequested by ${track.requestedBy}**\nProgress: ${queue.createProgressBar(indicator, timecodes)}`);
+        embed.setDescription(`Volume **${queue.volume}**%\nDuration **${trackDuration}\nLoop mode **${methods[queue.repeatMode]}**\nLink to a song: **${track.url}**\nRequested by ${track.requestedBy}**\nProgress: ${queue.createProgressBar()}`);
+
+      
 
         embed.setTimestamp();
        

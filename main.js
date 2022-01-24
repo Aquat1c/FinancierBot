@@ -42,6 +42,7 @@ console.log(message.author);
     message.channel.send("34743");                     
     message.channel.send("Блок краучем --> стоя --> в прыжке --> приземлиться блоча --> блок в крауче обратно");                                                                           
     }
+  
     if((message.content.includes('мадока'))||(message.content.includes('Мадока'))|| (message.content.includes('Канаме'))||(message.content.includes('канаме'))||(message.content.includes('Madoka'))) {
                                                                                                                 
       message.channel.send("МАДОКА - САМЫЙ ЛУЧШИЙ ПЕРСОНАЖ ИЗ ВСЕГО АНИМЕ, ПРЕВОСХОДИТ ВСЕХ ГЕРОЕВ ИЗ ВИЗУАЛЬНЫХ НОВЕЛЛ");                                                                                                                                                   

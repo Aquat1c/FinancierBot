@@ -21,7 +21,7 @@ module.exports = {
   //let arg3 = args[2];
   if (typeof(arg1) === "undefined" && typeof(arg2) === "undefined" && typeof(arg3) === "undefined"){
 
-  Booru.search('gelbooru', ['rating:safe ' + ' -bondage'   ], { limit: 1, random: true })
+  Booru.search('kc', ['rating:safe ' + ' -bondage'   ], { limit: 1, random: true })
   
   .then(posts => {
     for (let post of posts){
@@ -71,7 +71,7 @@ message.channel.send({
 }
 else if (typeof(arg2) === "undefined" && typeof(arg3) === "undefined"){
 
-  Booru.search('gelbooru', [arg1 + ' ' + 'rating:safe ' + ' -bondage'    ], { limit: 1, random: true })
+  Booru.search('kc', [arg1 + ' ' + 'rating:safe ' + ' -bondage'    ], { limit: 1, random: true })
   
   .then(posts => {
     for (let post of posts){
@@ -132,7 +132,7 @@ message.channel.send({
 }
 else if (typeof(arg3) === "undefined"){
 
-  Booru.search('gelbooru', [arg1 + ' ' + arg2 + ' ' + 'rating:safe ' + ' -bondage'   ], { limit: 1, random: true })
+  Booru.search('kc', [arg1 + ' ' + arg2 + ' ' + 'rating:safe ' + ' -bondage'   ], { limit: 1, random: true })
   
   .then(posts => {
     for (let post of posts){
@@ -182,7 +182,7 @@ message.channel.send({
 }
 else {
 
-  Booru.search('gelbooru', [arg1 + ' ' + arg2 + ' ' + arg3 + ' ' + ' -bondage'   ], { limit: 1, random: true })
+  Booru.search('kc', [arg1 + ' ' + arg2 + ' ' + arg3 + ' ' + ' -bondage'   ], { limit: 1, random: true })
   
   .then(posts => {
     for (let post of posts){
@@ -233,7 +233,7 @@ message.channel.send({
 }
   if (typeof(arg1) === "undefined" && typeof(arg2) === "undefined"){
 
-  Booru.search('gelbooru', [ ' -bondage' + '-furry'   ], { limit: 1, random: true })
+  Booru.search('kc', [ ' -bondage' + '-furry'   ], { limit: 1, random: true })
   
   .then(posts => {
     for (let post of posts){

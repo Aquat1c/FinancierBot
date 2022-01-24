@@ -10,7 +10,7 @@ module.exports = {
     execute(client, message, args) {
      {
     //const booru = new Booru()
-    Booru.search('gelbooru', ['noire_(neptune_series)  ' + ' -bondage' + "-spanking"  + "-rating:explicit" ], { limit: 1, random: true })
+    Booru.search('kc', ['noire ' + 'hyperdimension_neptunia'  + ' -bondage' + "-spanking"  + "-rating:explicit" ], { limit: 1, random: true })
     .then(posts => {
       for (let post of posts)
       //  console.log(post.fileUrl, post.postView)

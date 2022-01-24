@@ -8,7 +8,7 @@ module.exports = {
 
     execute(client, message, args) {
     
-  Booru.search('gelbooru', ['furude_rika '   +  ' -bondage'   ], { limit: 1, random: true })
+  Booru.search('kc', ['furude_rika '   +  ' -bondage'   ], { limit: 1, random: true })
   .then(posts => {
     for (let post of posts){
     //  console.log(post.fileUrl, post.postView)
@@ -25,10 +25,12 @@ module.exports = {
         console.log(post.rating);
       }
    else if (post.rating.includes('q') || (post.rating.includes('e'))){
-      const attachment = new MessageAttachment(
-        post.fileUrl
-         
-      )
+      message.channel.send({
+        files: [{
+           attachment: post.fileUrl,
+           name: "SPOILER_FILE.jpg"
+        }]
+     })    
       message.channel.send(attachment);
       //message.channel.send('СуКа ОпЯтЬ ТоХо в ЧаТе') 
       console.log(post.tags);

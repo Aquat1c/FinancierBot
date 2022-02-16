@@ -15,6 +15,14 @@
         "version": 3,
         "index": 503
       }
+    ],
+    "commands/music/splay.js": [
+      {
+        "id": "f25e9c65-bf2d-4cca-acf3-e8dfe8c91801",
+        "line": 2,
+        "version": 27,
+        "index": 49
+      }
     ]
   }
 }

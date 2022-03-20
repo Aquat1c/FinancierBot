@@ -2,7 +2,6 @@ module.exports = {
     app: {
         px: '.r ',
  
-        token: 'OTIyMjQ3ODQ1MDQ0NzAzMjQz.Yb-sPA.ddWnU8S-x1QdNYHKxiqZnjMrEE4',
         playing: 'Salthou 12.3 Shitensoku'
 
        
